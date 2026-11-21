@@ -1,0 +1,26 @@
+{
+  "blender": "5.3.0",
+  "sourceParts": 510,
+  "triangles": 53740,
+  "boundsMetres": [
+    5.265223503112793,
+    4.764999866485596,
+    4.929999828338623
+  ],
+  "meshCount": 1,
+  "materials": 2,
+  "images": 2,
+  "bytes": 2132380,
+  "primitives": 2,
+  "extensions": [
+    "EXT_meshopt_compression",
+    "KHR_materials_specular"
+  ],
+  "qaPass": true,
+  "acceptedWarnings": [
+    "Hearthfield_Cottage: ~99.97% UV overlap (ok only if mirrored/stacked on purpose; bakes break)",
+    "Hearthfield_Cottage: duplicate verts=72 loose verts=0",
+    "hidden back-to-back faces: Hearthfield_Cottage (325 pairs) - delete to save tris"
+  ],
+  "warningRationale": "UVs intentionally reuse painted palette patches, not an AO/lightmap bake. Hidden joining/contact surfaces and enclosed structural pieces are retained for an editable assembled miniature; no loose pieces or overlapping coplanar visible faces remain."
+}
